@@ -3,5 +3,10 @@ class Ship
     # This project is awesome!
     @name = name
     @length = length
+    @sunk = false
+  end
+
+  def sunk?
+    @sunk
   end
 end
