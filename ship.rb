@@ -1,5 +1,8 @@
 class Ship
-  def initialize
+  def initialize(name, length)
+    # This project is awesome!
+    @name = name
+    @length = length
     @sunk = false
   end
 
